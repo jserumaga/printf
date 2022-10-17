@@ -1,33 +1,18 @@
 #include "main.h"
 
-
-
 /**
-
  * print_i - prints an integer
-
  * @i: integer to print
-
- *
-
  * Return: number of chars and digits printed
-
  */
 
 int print_i(va_list i)
-
 {
-
 	int a[10];
-
 	int j, m, n, sum, count;
 
-
-
 	n = va_arg(i, int);
-
 	count = 0;
-
 	m = 1000000000;
 
 	a[0] = n / m;
